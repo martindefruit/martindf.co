@@ -53,6 +53,7 @@ DEPENDENCIES
   binding_of_caller
   faker
   pry-byebug
+  rack
   sinatra
   sinatra-contrib
 
