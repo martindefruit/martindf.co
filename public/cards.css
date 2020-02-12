@@ -1,0 +1,274 @@
+
+body {
+  font-size: 28px;
+}
+
+h1, h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2em;
+}
+
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  transition: ease all 1s;
+  color: #4433ff;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+a, a:hover {
+  text-decoration: none !important;
+  color: #4433ff;
+}
+
+.social {
+  color: #191444 !important;
+}
+
+.sub-banner {
+  padding: 40px;
+  position: relative;
+  text-align: left;
+  color: white;
+  background: black;
+  margin: 50px;
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.list-inline {
+  font-size: 30px;
+  display: flex;
+}
+
+.list-item {
+  margin-right: 30px;
+  color: #191444;
+  font-size: 28px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner p {
+  color: #9793bf;
+}
+.banner  img {
+    bottom: -50px;
+    max-width: 90px;
+  }
+.banner  a {
+  color: #e98d00;
+  font-size: 1.5rem;
+  }
+
+.cta a {
+  color: #191544;
+  transition: ease 1s all;
+  font-size: 1.5rem;
+}
+
+.cta a:hover {
+ color: #e98d00;
+  text-decoration: none;
+}
+
+.cta i {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.banner h1 {
+  font-size: 6rem;
+  color: #191545;
+}
+
+.banner  h2 {
+   text-align: left;
+    font-size: 70px;
+    width: 75%;
+    margin: auto;
+  }
+ .banner h2 span {
+    color: #218790;
+  }
+
+
+.greet {
+  color: red;
+}
+
+.intro {
+  height: 50vh;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+
+#wrap {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.navbar-lewagon {
+  justify-content: space-between;
+  z-index: 100000000;
+  padding: 30px 7px;
+  background: transparent;
+}
+
+.navbar-lewagon img {
+  max-width: 55px;
+}
+.navbar-lewagon a {
+  color: black;
+  font-size: 1.2rem;
+  opacity: .2;
+}
+.navbar-lewagon a:hover {
+    opacity: 1;
+}
+
+.navbar-lewagon .navbar-collapse {
+  padding: 20px 30px;
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.avatar-large {
+  width: 56px;
+  border-radius: 50%;
+}
+
+.avatar-bordered {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+.avatar-square {
+  width: 40px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+@media (max-width: 900px)  {
+  h1, h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+  }
+
+  .banner a {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px;
+  grid-gap: 16px;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+

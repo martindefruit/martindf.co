@@ -1,0 +1,78 @@
+.column {
+  height: 60vh;
+  position: relative;
+  border-radius: 5px;
+  background: red;
+  margin: 10px;
+  transition: ease all .5s;
+}
+.column:hover {
+   margin: 0;
+
+}
+.column p {
+    height: 91%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: left;
+    margin: 26px 22px;
+}
+
+.column p:hover {
+
+  text-decoration: none;
+
+}
+
+.column-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.c-1, .c-3 {
+  background-size: cover;
+  background-position: center;
+  background: grey;
+}
+
+.c-4, .c-2 {
+  background: lightgrey;
+  background-size: cover;
+  background-position: center;
+}
+
+.side-image {
+  object-fit: cover;
+  object-position: left;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.mycontainer {
+  display: flex;
+}
+
+#banner {
+  padding: 70px 0;
+  height: 100%;
+}
+
+#banner h2 {
+  font-size: 2rem;
+}
+.cta2 a {
+  color: white;
+}
+
+.cont h3 {
+  font-size: 1.5rem;
+  color: #191545;
+}
+
+.contw {
+  opacity: .6;
+}
